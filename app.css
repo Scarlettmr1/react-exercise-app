@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap');
 
 * {
   margin: 0;
@@ -258,4 +257,63 @@ body {
   .counter-value {
     font-size: 5rem;
   }
+  .rep-card {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 2px solid #e94560;
+}
+
+.rep-card .counter-value {
+  color: #e94560;
+}
+
+.rep-card .btn-primary {
+  background: #e94560;
+  border-color: #e94560;
+}
+
+.rep-card .btn-primary:hover {
+  background: #c73652;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(233, 69, 96, 0.4);
+}
+  .dur-card {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  border: 2px solid #00d4aa;
+}
+
+.dur-card .counter-value {
+  color: #00d4aa;
+  font-size: 4rem !important;
+  letter-spacing: 0.1em;
+}
+
+.dur-card .btn-primary {
+  background: #00d4aa;
+  border-color: #00d4aa;
+  color: #0f2027;
+}
+
+.dur-card .btn-primary:hover {
+  background: #00b894;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 212, 170, 0.4);
+}
+
+.dur-card .btn-pause {
+  background: transparent;
+  border: 2px solid #00d4aa;
+  color: #00d4aa;
+  padding: 12px 32px;
+  border-radius: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.1rem;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dur-card .btn-pause:hover {
+  background: rgba(0, 212, 170, 0.15);
+  transform: translateY(-2px);
+}
 }
